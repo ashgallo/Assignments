@@ -1,0 +1,48 @@
+{
+  "name" : "JSON's Deli",
+  "menu" : [
+    "appetizers" : [      //an array of {objects}
+      {
+        "name" : "Fried Pickles",
+        "ingredients" : [
+          "pickles", 
+          "seasoning", 
+          "oil"
+        ],
+        "description" : 
+        "Pickles seasoned & fried in oil"
+      },
+      {
+        "name" : "Mozarella Sticks",
+        "ingredients" : [
+          "mozarella cheese", 
+          "seasoning", 
+          "oil"
+        ],
+        "description" : [
+          "Mozarella seasoned & fried in oil"
+      },
+    ],
+    //Note: To access "seasoning" of "Fried pickles" Path: menu.appetizers[0].ingredients[1] to find it
+
+    "cold sandwhiches" : [
+      "name" : "Veggie Sub",
+      "ingredients" :
+    ]
+      "cold1" : "Veggie",
+      "cold2" : "Italian"
+    },
+    "hot sandwhiches" : {
+      "hot1" : "Philly",
+      "hot2" : "Pizza"
+    },
+    "desserts" : {
+      "dessert1" : "Cheesecake",
+      "dessert2" : "Banana Split"
+    },
+    "drinks" : {
+      "drink1" : "Italian Soda",
+      "drink2" : "Fountain Drink"
+    }
+  ]
+}

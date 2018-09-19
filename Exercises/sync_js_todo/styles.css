@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(179, 190, 191);
+  font-family: cursive;
+}
+
+h1 {
+ text-align: center;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  background-color: rgb(181, 204, 205);
+  border: 5px solid white;
+  padding: 20px;
+}
+
+fieldset {
+  width: 50%;
+  height: auto;
+}
+
+input {
+  display: inline-block;
+}
+
+button {
+  font-family: cursive;
+}
+
+.created-list {
+  width: 50%;
+  margin: auto;
+  background-color: rgb(181, 204, 205);
+  border: 5px solid white;
+  padding: 20px;
+}

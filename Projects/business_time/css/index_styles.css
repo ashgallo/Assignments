@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box; 
+  font-size: 20px;
+}
+
+body {
+  background-image: url("/Users/ashgallo/Dev/Assignments/Projects/business_time/css/images/coffee_background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-color: #b2868d;
+  font-family: fantasy;
+}
+
+@media (max-width: 500px){}
+
+.navbar {
+  text-align: right;
+  list-style-type: none;
+  margin: 0 3%;
+}
+
+.navlink{
+  display: inline;
+  margin: 5px;
+  font-weight: bolder;
+}
+
+h1 {
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 80px;
+  color: rgb(205, 211, 216);
+  text-align: center;
+  margin: 5% 0 80% 20%;
+}
+
+h2 {
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 80px;
+  color: rgb(205, 211, 216);
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 240px;
+}

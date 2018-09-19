@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box; 
+  font-size: 0;
+  margin: 0;
+}
+
+.grid {
+  width: 100%;
+  height: 100vh;
+}
+
+div {
+  border: 5px solid white;
+}
+
+.pink {
+  width: 100%;
+  height: 25%;
+  background-color: #F5C6D6;
+}
+
+.fushia {
+  width: 25%;
+  height: 25%;
+  background-color: #EE2E84;
+  display: inline-block;
+}
+
+.blue {
+  width: 50%;
+  height: 25%;
+  background-color: #85CFD8;
+  display: inline-block;
+}
+
+.pair {
+  display: inline-block;
+}
+
+.green {
+  width: 75%;
+  height: 25%;
+  background-color: #8DC63F;
+}
+
+.orange {
+  width: 25%;
+  height: 25%;
+  background-color: #E76E34;
+}
+
+@media (max-width: 768px) {
+  .grid { 
+    display: inline;
+  }
+}

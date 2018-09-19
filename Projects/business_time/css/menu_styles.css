@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box; 
+  font-size: 20px;
+}
+
+body {
+  background-color: #b2868d;
+  font-family: fantasy;
+}
+
+.navbar {
+  text-align: right;
+  text-align: right;
+  list-style-type: none;
+  margin: 20px 35px 10px 0;
+}
+
+.navlink{
+  display: inline;
+  margin: 5px;
+  font-weight: bolder;
+}
+
+h1 {
+  width: 30%;
+  margin: auto;
+  font-size: 75px;
+  font-family: fantasy;
+}
+
+.container {
+  width: 100%vh;
+  height: 50%vh;
+  padding: 10px;
+  margin: 10px 30px 30px;
+  border: 5px solid rgba(255, 255, 255, 0.728);
+}
+
+.card {
+  width: 25%;
+  height: 50%;
+  display: inline-block;
+  border: 5px solid rgba(255, 255, 255, 0.728);
+  margin: 5px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+}
+
+/* .extras {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 30px; 
+  font-family: fantasy;
+} */
+
+.extras {
+  margin-left: 3%;
+}
+
+.milk {
+  width: 50%;
+  float: left;
+}
+
+.syrup {
+  width: 50%;
+  float: right;
+}
+
+h3 {
+  display: inline-block;
+  font-family: fantasy;
+  margin: 0;
+}
+
+

@@ -1,0 +1,19 @@
+body {
+  padding: 40px;
+  background-image: insert math operators photo    
+}
+
+.calculator {
+  border-radius: 20px
+}
+.add {
+  background-color: rgb(127, 255, 212);
+}
+
+.subtract {
+  background-color: rgb(102, 205, 170); 
+}
+
+.multiply {
+  background-color: rgb(69, 140, 116); 
+}

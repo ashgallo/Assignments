@@ -1,0 +1,89 @@
+body {
+  background-color: #b2868d;
+  font-family: fantasy;
+  background-image: url("/Users/ashgallo/Dev/Assignments/Projects/business_time/css/images/social_background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-color: #b2868d;
+  font-family: fantasy;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-color: #b2868d;
+  font-family: fantasy;
+}
+
+.navbar {
+  text-align: right;
+  text-align: right;
+  list-style-type: none;
+  margin: 2% 5%;
+}
+
+.navlink{
+  display: inline;
+  margin: 5px;
+  font-weight: bolder;
+}
+
+h1 {
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 70px;
+  color: rgb(21, 22, 22);
+  text-align: center;
+  margin: 0;
+}
+
+.media {
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.phone, address {
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.map {
+  width: 400px;
+  height: 300px;
+  border: 5px solid black;
+  box-shadow: 0 4px 4px 4px #b2868d;
+  margin: auto;
+}

@@ -1,0 +1,22 @@
+h1 {
+  color: darkgreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+p {
+  line-height: 25px;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#p4 {
+  text-transform: uppercase;
+}

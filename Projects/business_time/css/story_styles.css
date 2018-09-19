@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box; 
+  font-size: 20px;
+}
+
+body {
+  background-image: url("/Users/ashgallo/Dev/Assignments/Projects/business_time/css/images/story_background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-color: #b2868d;
+  font-family: fantasy;
+}
+
+.navbar {
+  text-align: right;
+  list-style-type: none;
+  margin: 0 4%;
+}
+
+.navlink{
+  display: inline;
+  margin: 5px;
+  font-weight: bolder;
+}
+
+h1 {
+  margin: 3% 0 0 20%;
+  text-align: left;
+  font-size: 140%;
+}
+
+.story {
+  margin: 1% 0 0 20%;
+  text-align: left;
+  font-size: 120%;
+  width: 60%;
+  word-wrap: wrap;
+
+}
