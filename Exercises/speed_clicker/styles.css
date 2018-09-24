@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(108, 150, 108);
+  font-family: cursive;
+}
+
+header {
+  text-align: center;
+}
+
+div{
+  margin: auto;
+}
+
+p {
+  text-align: center;
+}
+
+.show-count {
+  width: 25%;
+  border: 10px solid gray;
+  text-align: center;
+}

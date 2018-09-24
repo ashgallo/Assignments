@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(159, 208, 138);
+}
+
+.box {
+  width: 20%;
+  height: 50%;
+  background-color: rgb(42, 103, 42);
+  display: inline-block;
+  /* transition-property: background-color; */
+  /* transition-duration: 2000m;
+  transition-timing-function: ease-in; */
+}
+
+.box:hover {
+  background-color: aqua;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  font-size: 30 px;
+  align-content: center;
+}
+
+div {
+  border: 10px solid white;
+}
+
