@@ -12,6 +12,6 @@ const expected = [
 
 describe("Testing mult table function", () => {
   it("should return a 5 x 5 mult table", () => {
-    assert.deepEqual(multTable(), expected);
+    assert.deepEqual(multTable(5), expected);
   })
 })
