@@ -1,0 +1,38 @@
+body {
+ background-color: #f5e4dc;
+}
+
+header {
+  width: 65vw; 
+  margin: auto;
+  text-align: center;
+  font-family: cursive;
+  font-size: 45px;
+  color: #746d69f1;
+}
+
+.form {
+  width: 90vw;
+  height: 90vw;
+  margin: auto;
+  background-image: url("./background.jpeg");
+  background-repeat: no-repeat;
+}
+
+form {
+  width: 35%;
+  height: 25%;
+  margin: auto;
+  padding: 15px;
+  color: #8f8681;
+  border: 5px solid #9ec4c5;
+  border-radius: 5px;
+  background-color: #c1ddd8;
+  font-size: 25px;
+}
+
+input {
+  margin: 3px 3px 5px 5px;
+}
+
+/* responsiveness */

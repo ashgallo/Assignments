@@ -1,0 +1,72 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+header h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+
+header {
+  height: 3vh;
+  position: relative;
+  z-Index: 0;
+  padding: 90px 90px;
+  text-align: center;
+  margin: 0
+}
+
+header:before {
+  opacity: .8;
+  z-index: -1;
+  background-size: cover;
+  background-image: url("./images/trees.jpeg");
+  background-repeat: no-repeat;
+  height: 25vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+
+.links {
+  text-align: center;
+  margin: 20px 0 0;
+  padding: 10px 0;
+}
+
+.links ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+}
+
+.links li{
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 25px;
+}
+
+.info {
+  width: 50vw;
+  
+}
+
+.services ul {
+  width: 20vw;
+  list-style: none;
+  border: 5px solid rgb(155, 59, 59);
+}
+
+.services li {
+  margin: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 98vw;
+  text-align: right;
+  margin-bottom: 10px;
+}
