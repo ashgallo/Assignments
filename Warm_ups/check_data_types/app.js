@@ -23,5 +23,7 @@ const checkDataTypes = (arr) => {
   return [].concat(...arr).every(i => typeof i === typeof arr[0][0]);
 }
 
+//these methods would work:  filter, map, sort, reduce, every, some
+
 module.exports = checkDataTypes;
 
