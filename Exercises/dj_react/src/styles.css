@@ -7,6 +7,7 @@
   background: lightgrey;
   height: 75vh;
   width: 74vw;
+  margin: 15px;
 }
 
 .box {
@@ -23,7 +24,7 @@
   float: left;
   grid-gap: 5px;
   grid-template-rows: auto;
-  margin: 50px;
+  margin: 90px 50px;
   border: 5px solid darkslategrey;
   border-radius: 5px;
   background: lightgrey;
