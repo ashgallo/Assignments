@@ -1,0 +1,33 @@
+* {
+  Box-sizing: 0;
+  Margin: 10px;
+}
+
+.nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 25vh;
+  margin: 0;
+  background-color: lightblue;
+  color: white;
+  text-align: right;
+}
+
+.nav h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 2%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  margin: 0;
+  background-color: lightblue;
+  color: white;
+  text-align: right;
+}
