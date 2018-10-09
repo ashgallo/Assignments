@@ -25,16 +25,17 @@ describe("test every", () => {
   it("should return false", () => {
     assert.isFalse(every(...case1));
   })
+  it("should return true", () => {
+    assert.isTrue(every(...case2));
+  })
 })
-it("should return true", () => {
-  assert.isTrue(every(...case2));
-})
+
 
 describe("test some", () => {
   it("should return false", () => {
     assert.isFalse(some(...case3));
   })
-})
-it("should return true", () => {
-  assert.isTrue(some(...case4));
+  it("should return true", () => {
+    assert.isTrue(some(...case4));
+  })
 })
