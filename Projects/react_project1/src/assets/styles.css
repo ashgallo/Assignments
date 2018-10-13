@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box; 
+  font-size: 0px;
+  margin: 0;
+}
+
+/* header {
+
+  
+}
+
+footer{
+
+} */
+
+.home-display {
+  width: 100vw;
+  height: 75vh;
+  background-color: blue;
+
+}
+
+.taco1 {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.selection-display {
+  float: left;
+  width: 50%;
+  height: 100%
+}
