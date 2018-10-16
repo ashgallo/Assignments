@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-
 import axios from "axios";
-
 import CharacterView from "./CharacterView";
 
 export default class Characters extends Component {
