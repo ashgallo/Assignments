@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Loading from "./Loading";
 import ErrorHandler from "./ErrorHandler";
 import CharacterList from './CharacterList';

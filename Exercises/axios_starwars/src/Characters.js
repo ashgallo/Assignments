@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
 import axios from "axios";
+
 const url = "https://vschool-cors.herokuapp.com?url=https://swapi.co/api/people"
 
 export default class Characters extends Component {

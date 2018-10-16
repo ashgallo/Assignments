@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Characters from "./Characters";
 import CharactersView from './CharactersView';
 
