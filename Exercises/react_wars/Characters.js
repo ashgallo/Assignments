@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+
 import axios from "axios";
+
 import CharacterView from "./CharacterView";
 
 export default class Characters extends Component {
@@ -15,7 +17,7 @@ export default class Characters extends Component {
         return axios.get(url).then(response => response.data.results);
     }
     componentDidMount() {
-        //shoot GET request here 
+        //shoot GET request here
         this.getCharacterData("https://vschool-cors.herokuapp.com?url=https://swapi.co/api/people")
             .then(characters => this.setState({ characters, loading: false }));
     }

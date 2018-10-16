@@ -1,7 +1,6 @@
-import React from 'react';
-import Homeworld from './Homeworld'
+import React from 'react'
 
-function DetailPage({ name, birth_year, eye_color, gender, hair_color, homeworld}) {
+function DetailPage({ name, birth_year, eye_color, gender, hair_color, homeworld }) {
     return (
         <div>
             <h3>{name}</h3>
@@ -9,7 +8,7 @@ function DetailPage({ name, birth_year, eye_color, gender, hair_color, homeworld
             <p>Gender: {gender}</p>
             <p>Eye Color: {eye_color}</p>
             <p>Hair Color: {hair_color}</p>
-            <Homeworld url={homeworld} />
+            {/* render Homeworld component */}
         </div>
     )
 }
