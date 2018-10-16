@@ -1,11 +1,9 @@
 import React from 'react';
 
-function Footer () {
-  return(
+const Footer = () => (
     <footer>
     https://github.com/ashgallo
     </footer>
-  )
-}
+)
 
 export default Footer;

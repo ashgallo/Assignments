@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function NavHome() {
-  return(
+const LandingPage = () => (
     <nav>
       <Link to={"/"}>Home</Link>
     </nav>
-  )
-}
+)
 
-export default NavHome;
+export default LandingPage;

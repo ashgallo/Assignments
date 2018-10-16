@@ -1,13 +1,11 @@
 import React from 'react';
-import NavHome from './NavHome';
+import LandingPage from './LandingPage';
 
-function Merch() {
-  return(
+const Merch = () => (
     <div>
-      <NavHome />
+      <LandingPage />
       <p>Merch</p>
     </div>
-  )
-}
+)
 
 export default Merch;

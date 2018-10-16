@@ -1,13 +1,11 @@
 import React from 'react';
-import NavHome from './NavHome';
+import LandingPage from './LandingPage';
 
-function Connect() {
-  return(
+const Connect = () => (
     <div>
-      <NavHome />
+      <LandingPage />
       <p>Connect</p>
     </div>
-  )
-}
+)
 
 export default Connect;

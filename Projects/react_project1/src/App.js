@@ -1,14 +1,12 @@
 import React from 'react';
 import Footer from './Footer';
-import LinksContainer from './LinksContainer';
+import Routes from './Routes';
 
-function App () {
-  return (
+const App = () => (
     <div>
-      <LinksContainer />
+      <Routes />
       <Footer />
     </div>
-  )
-}
+)
 
 export default App;
