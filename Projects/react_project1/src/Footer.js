@@ -2,9 +2,9 @@ import React from 'react';
 
 function Footer () {
   return(
-    <div>
+    <footer>
     https://github.com/ashgallo
-    </div>
+    </footer>
   )
 }
 
