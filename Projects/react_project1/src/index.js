@@ -5,15 +5,17 @@ import App from './App';
 import BaseLayerProvider from './BaseLayerProvider';
 import MixinProvider from './MixinProvider';
 import CondimentProvider from './CondimentProvider';
+import SeasoningProvider from './SeasoningProvider';
 import './assets/styles.css';
-
 
 render(
   <BrowserRouter>
     <BaseLayerProvider>
     <MixinProvider>
     <CondimentProvider>
-        <App />
+    <SeasoningProvider>
+      <App />
+    </SeasoningProvider>
     </CondimentProvider>
     </MixinProvider>
     </BaseLayerProvider>
