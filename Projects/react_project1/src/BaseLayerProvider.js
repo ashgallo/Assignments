@@ -34,7 +34,7 @@ export default class BaseLayerProvider extends Component {
     //get base layer data & set state
     this._getBaseLayerData()
     .then(baseLayers => {
-      this.setState( {
+      this.setState({
         baseLayers,
         currentBaseLayer: 0,
         loading: false,

@@ -1,38 +1,38 @@
 import React, { Component, createContext } from 'react';
 import axios from 'axios';
 
-const url = "http://taco-randomizer.herokuapp.com/mixins/";
+const url = "http://taco-randomizer.herokuapp.com/condiments/";
 
-const MixinContext = createContext();
+const CondimentContext = createContext();
 
-export default class MixinProvider extends Component {
+export default class CondimentProvider extends Component {
   constructor() {
     super();
     this.state = {
-      mixins: [],
-      currentMixin: undefined,
+      condiments: [],
+      currentCondiment: undefined,
       loading: true,
       err: null
     }
     this.handleSelection = this.handleSelection.bind(this);
   }
 
-  _getMixinData = () => {
+  _getCondimentData = () => {
     return axios.get(url).then(response => response.data)
   }
 
   handleSelection(index) {
-    return({ target }) => {
-      this.setState({ currentMixin: target.value })
+    return ({ target }) => {
+      this.setState({ currentCondiment: target.value })
     }
   }
 
   componentDidMount() {
-    this._getMixinData()
-    .then(mixins => {
+    this._getCondimentData()
+    .then(condiments => {
       this.setState({
-        mixins,
-        currentMixin: 0, 
+        condiments,
+        currentCondiment: 0,
         loading: false,
         err: null
       })
@@ -42,17 +42,17 @@ export default class MixinProvider extends Component {
   render() {
     return (
       <div>
-        <MixinContext.Provider
+        <CondimentContext.Provider
           value={{ ...this.state, handleSelection: this.handleSelection }}>
           {this.props.children}
-        </MixinContext.Provider>
+        </CondimentContext.Provider>
       </div>
     )
   }
 }
 
-export const withMixin = C => props => (
-  <MixinContext.Consumer>
+export const withCondiment = C => props => (
+  <CondimentContext.Consumer>
     {value => <C {...props} {...value} />}
-  </MixinContext.Consumer>
+  </CondimentContext.Consumer>
 )
