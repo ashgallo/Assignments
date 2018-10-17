@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const LandingPage = () => (
     <nav>
-      <Link to={"/"}>Home</Link>
+      <Link to={'/'}>Home</Link>
     </nav>
 )
 

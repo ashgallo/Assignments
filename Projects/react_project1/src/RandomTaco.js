@@ -1,13 +1,13 @@
 import React from 'react';
 import LandingPage from './LandingPage';
 
-const Merch = () => (
-  <div>
+const RandomTaco = () => (
+  <container>
     <nav className='landing-page'>
       <LandingPage />
     </nav>
-    <h2>Merchandise Display</h2>
-  </div>
+    <div>Randomizer Display</div>
+  </container>
 )
 
-export default Merch;
+export default RandomTaco;

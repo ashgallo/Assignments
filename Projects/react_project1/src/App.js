@@ -3,7 +3,7 @@ import Footer from './Footer';
 import Routes from './Routes';
 
 const App = () => (
-    <div>
+    <div className='app'>
       <Routes />
       <Footer />
     </div>

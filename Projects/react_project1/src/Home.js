@@ -1,19 +1,19 @@
 import React from 'react';
-import Header from './Header';
-import HomeLinks from './HomeLinks';
+//import Header from './Header';
+import MerConLinks from './MerConLinks';
 import HomeContent from './HomeContent';
 
 const Home = () => (
-  <div>
+  <div className='home'>
     <div>
-      <Header />
+      <h1>Taco Taco</h1>
     </div>
-    <div className='home-links'>
-      <HomeLinks />
-    </div>
-    <div className='home-content'>
+    <nav className='mercon-links'>
+      <MerConLinks />
+    </nav>
+    <nav>
       <HomeContent />
-    </div>
+    </nav>
   </div>
 )
 

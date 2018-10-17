@@ -36,7 +36,7 @@
 //recipes:
 // import React from 'react';
 
-// function Recipes() {
+// function () {
 //   return(
 //     <div>Recipe Display</div>
 //   )

@@ -1,19 +1,16 @@
 import React from 'react';
-import { Segment, Image } from 'semantic-ui-react';
-
-const taco1 = './assets/taco1.jpg'
+import { Link } from 'react-router-dom';
+import { Segment } from 'semantic-ui-react';
 
 const HomeContent = () => ( 
-      <Segment.Group horizontal>
-        <Segment className='taco1'>
-          <Image src={taco1} size='medium' floated='left' />
-        </Segment>
-        <Segment.Group stacked className='taco-go'>
-          <Segment>
-            <h3>Recipes</h3>
+      <Segment.Group horizontal className='home-content'>
+        <Segment className='taco1'></Segment>
+        <Segment.Group className='taco-go'>
+          <Segment className='build-choice'>
+            <Link to={'/buildTaco'}><h3>Build</h3></Link>
           </Segment>
-          <Segment>
-            <h3>Random Recipe</h3>
+          <Segment className='random-choice'>
+            <Link to={'/randomtaco'}><h3>Random Taco</h3></Link>
           </Segment>
         </Segment.Group>
       </Segment.Group>
