@@ -3,6 +3,7 @@ import BaseLayerSelect from './BaseLayerSelect';
 import MixinSelect from './MixinSelect';
 import CondimentSelect from './CondimentSelect';
 import SeasoningSelect from './SeasoningSelect';
+import ShellSelect from './ShellSelect';
 
 function IngredientSelector() {
   return (
@@ -11,6 +12,7 @@ function IngredientSelector() {
       <MixinSelect />
       <CondimentSelect />
       <SeasoningSelect />
+      <ShellSelect />
     </form>
   )
 }

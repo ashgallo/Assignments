@@ -1,7 +1,7 @@
 import React from 'react';
-//import Header from './Header';
 import MerConLinks from './MerConLinks';
 import HomeContent from './HomeContent';
+import Footer from './Footer';
 
 const Home = () => (
   <div className='home'>
@@ -14,6 +14,7 @@ const Home = () => (
     <nav>
       <HomeContent />
     </nav>
+    <Footer />
   </div>
 )
 

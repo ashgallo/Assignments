@@ -6,6 +6,7 @@ import BaseLayerProvider from './BaseLayerProvider';
 import MixinProvider from './MixinProvider';
 import CondimentProvider from './CondimentProvider';
 import SeasoningProvider from './SeasoningProvider';
+import ShellProvider from './ShellProvider';
 import './assets/styles.css';
 
 render(
@@ -14,7 +15,9 @@ render(
     <MixinProvider>
     <CondimentProvider>
     <SeasoningProvider>
+    <ShellProvider>
       <App />
+    </ShellProvider>
     </SeasoningProvider>
     </CondimentProvider>
     </MixinProvider>

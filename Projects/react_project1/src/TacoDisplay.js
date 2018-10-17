@@ -3,6 +3,7 @@ import BaseLayerDisplay from './BaseLayerDisplay';
 import MixinDisplay from './MixinDisplay';
 import CondimentDisplay from './CondimentDisplay';
 import SeasoningDisplay from './SeasoningDisplay';
+import ShellDisplay from './ShellDisplay';
 
 function TacoDisplay() {
   return (
@@ -11,6 +12,7 @@ function TacoDisplay() {
      <MixinDisplay />
      <CondimentDisplay />
      <SeasoningDisplay />
+     <ShellDisplay />
     </div>
   )
 }
