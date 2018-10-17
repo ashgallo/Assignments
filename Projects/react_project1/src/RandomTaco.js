@@ -1,13 +1,16 @@
 import React from 'react';
 import LandingPage from './LandingPage';
+import RandomizerDisplay from './RandomizerDisplay';
 
 const RandomTaco = () => (
-  <container>
+  <div>
     <nav className='landing-page'>
       <LandingPage />
     </nav>
-    <div>Randomizer Display</div>
-  </container>
+    <div>
+      <RandomizerDisplay />
+    </div>
+  </div>
 )
 
 export default RandomTaco;

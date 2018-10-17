@@ -7,6 +7,7 @@ import MixinProvider from './MixinProvider';
 import CondimentProvider from './CondimentProvider';
 import SeasoningProvider from './SeasoningProvider';
 import ShellProvider from './ShellProvider';
+import Randomizer from './Randomizer';
 import './assets/styles.css';
 
 render(
@@ -16,7 +17,9 @@ render(
     <CondimentProvider>
     <SeasoningProvider>
     <ShellProvider>
+    <Randomizer>
       <App />
+    </Randomizer>
     </ShellProvider>
     </SeasoningProvider>
     </CondimentProvider>
