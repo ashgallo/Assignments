@@ -46,12 +46,11 @@ export default class BaseLayerProvider extends Component {
 
   render() {
     return (
-      <div>
+      
         <BaseLayerContext.Provider 
           value={{ ...this.state, handleSelection: this.handleSelection }}>
           {this.props.children}
         </BaseLayerContext.Provider>
-      </div>
     )
   }
 }

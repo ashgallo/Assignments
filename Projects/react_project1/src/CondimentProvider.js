@@ -41,12 +41,10 @@ export default class CondimentProvider extends Component {
 
   render() {
     return (
-      <div>
         <CondimentContext.Provider
           value={{ ...this.state, handleSelection: this.handleSelection }}>
           {this.props.children}
         </CondimentContext.Provider>
-      </div>
     )
   }
 }
