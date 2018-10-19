@@ -41,12 +41,10 @@ export default class ShellProvider extends Component {
 
   render() {
     return (
-      <div>
-        <ShellContext.Provider
-          value={{ ...this.state, handleSelection: this.handleSelection }}>
-          {this.props.children}
-        </ShellContext.Provider>
-      </div>
+      <ShellContext.Provider
+        value={{ ...this.state, handleSelection: this.handleSelection }}>
+        {this.props.children}
+      </ShellContext.Provider>
     )
   }
 }

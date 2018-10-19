@@ -1,4 +1,5 @@
 import React from 'react';
+import { Grid } from 'semantic-ui-react';
 import BaseLayerDisplay from './BaseLayerDisplay';
 import MixinDisplay from './MixinDisplay';
 import CondimentDisplay from './CondimentDisplay';
@@ -7,13 +8,13 @@ import ShellDisplay from './ShellDisplay';
 
 function TacoDisplay() {
   return (
-    <div>
+    <Grid columns='equal'>
      <BaseLayerDisplay /> 
      <MixinDisplay />
      <CondimentDisplay />
      <SeasoningDisplay />
      <ShellDisplay />
-    </div>
+    </Grid>
   )
 }
 

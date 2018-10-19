@@ -1,35 +1,36 @@
 * {
   box-sizing: border-box; 
-  /* font-size: 0px; */
-  /* margin: 0; */
 }
-/* html, body {
-  width: 100vw;
-  height: 100vh;
-} */
 
+body {
+  background-color: #b1d16a;
+}
 .app {
-  /* width: 100vw; */
   height: 100vh;
+  color: #444444;
+  font: bold;
 }
 
-/* header {
-  top: 0;
-  width: 100%;
-  height: 60px;
-  text-align: center;
-} */
+.home-content {
+  margin: 0;
+}
 
-/* Link {
-  text-align: right;
-  margin: 20px 0 0;
-  padding: 10px 0;
-} */
+.landing-link {
+  font-size: 20px;
+  padding: 20px;
+}
 
 .landing-page {
   text-align: right;
   margin: 20px;
   height: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 40px;
+  padding: 20px;
 }
 
 footer {
@@ -40,27 +41,7 @@ footer {
   margin-bottom: 10px;
 }
 
-.mercon-links {
-  list-style: none;
-  text-align: right;
-  margin: 10px;
-}
-
-.mercon-links li {
-  display: inline-block;
-  font-size: 20px;
-  padding: 10px;
-}
-
 .home-content {
   width: 80vw;
   height: 75vh;
-  border: 1px solid black;
-}
-
-.taco1 {
-  height: 75vh;
-  background-image: url("taco1.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
 }

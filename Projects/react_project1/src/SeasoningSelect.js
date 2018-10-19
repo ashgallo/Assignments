@@ -1,7 +1,7 @@
 import React from 'react';
 import { withSeasoning } from './SeasoningProvider';
 
-function SeasoningSelect({ seasonings, loading, err, handleSelection }) {
+function SeasoningSelect({ loading, err, seasonings, handleSelection }) {
 
   const seasoningOptions = seasonings.map((seasoning, i) => (
     <option value={i} key={i}>{seasoning.name}</option>

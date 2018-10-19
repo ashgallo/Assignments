@@ -1,4 +1,5 @@
 import React from 'react';
+import { Grid } from 'semantic-ui-react';
 import BaseLayerSelect from './BaseLayerSelect';
 import MixinSelect from './MixinSelect';
 import CondimentSelect from './CondimentSelect';
@@ -7,13 +8,15 @@ import ShellSelect from './ShellSelect';
 
 function IngredientSelector() {
   return (
-    <form>
-      <BaseLayerSelect />
-      <MixinSelect />
-      <CondimentSelect />
-      <SeasoningSelect />
-      <ShellSelect />
-    </form>
+    <Grid columns='equal'>
+      <Grid.Row>
+        <BaseLayerSelect />
+        <MixinSelect />
+        <CondimentSelect />
+        <SeasoningSelect />
+        <ShellSelect />
+      </Grid.Row>
+    </Grid>
   )
 }
 

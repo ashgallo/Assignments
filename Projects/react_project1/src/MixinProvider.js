@@ -41,12 +41,10 @@ export default class MixinProvider extends Component {
 
   render() {
     return (
-      <div>
-        <MixinContext.Provider
-          value={{ ...this.state, handleSelection: this.handleSelection }}>
-          {this.props.children}
-        </MixinContext.Provider>
-      </div>
+      <MixinContext.Provider
+        value={{ ...this.state, handleSelection: this.handleSelection }}>
+        {this.props.children}
+      </MixinContext.Provider>
     )
   }
 }

@@ -7,7 +7,7 @@ const Merch = () => (
     <nav className='landing-page'>
       <LandingPage />
     </nav>
-    <h2>Buy cool taco things</h2>
+    <h1>Buy cool taco things</h1>
     <div>
       <TacoAccessories />
     </div>

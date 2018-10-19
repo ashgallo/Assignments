@@ -1,8 +1,6 @@
 import React, { Component, createContext } from 'react';
 import axios from 'axios';
 
-//api endpoints:  condiments, seasonings, shells 
-
 const url = "http://taco-randomizer.herokuapp.com/base_layers/";
 
 const BaseLayerContext = createContext();
@@ -46,11 +44,10 @@ export default class BaseLayerProvider extends Component {
 
   render() {
     return (
-      
-        <BaseLayerContext.Provider 
-          value={{ ...this.state, handleSelection: this.handleSelection }}>
-          {this.props.children}
-        </BaseLayerContext.Provider>
+      <BaseLayerContext.Provider 
+        value={{ ...this.state, handleSelection: this.handleSelection }}>
+        {this.props.children}
+      </BaseLayerContext.Provider>
     )
   }
 }

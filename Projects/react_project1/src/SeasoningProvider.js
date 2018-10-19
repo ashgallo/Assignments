@@ -1,7 +1,7 @@
 import React, { Component, createContext } from 'react';
 import axios from 'axios';
 
-const url = "http://taco-randomizer.herokuapp.com/condiments/";
+const url = "http://taco-randomizer.herokuapp.com/seasonings/";
 
 const SeasoningContext = createContext();
 
@@ -41,12 +41,10 @@ export default class SeasoningProvider extends Component {
 
   render() {
     return (
-      <div>
         <SeasoningContext.Provider
           value={{ ...this.state, handleSelection: this.handleSelection }}>
           {this.props.children}
         </SeasoningContext.Provider>
-      </div>
     )
   }
 }
