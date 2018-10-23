@@ -65,15 +65,47 @@ voteRouter.route("/:id/comments")
 
                 // save parent to database again
                 return foundPost.save()
-            })
+             })
             // return the parent
             .then(savedPost => res.status(201).send(savedPost))
             .catch(err => next(err))
     })
 
-// voteRouter.route("/:id/comments/:commentId")
-//     .get()
-//     .put()
+voteRouter.route("/:id/comments/:commentId")
+    .get((res, res, next) => {
+        Post.findById(req.params.id)
+        .then(foundPost => {
+            const foundComment = foundPost.comments.id(req.params.com)
+            res.status(200).send(foundComment)
+        }) 
+    })
+    .delete((req, res, next) => {
+        Post.findById(req.params.id)
+        .then(foundPost => {
+            foundPost.comments.id(req.params.commentId).remove()
+            foundPost.save((err) => {
+                if (err) {
+                    res.status(400)
+                    next (err)
+                }
+                res.status(204).send();
+            })
+        })
+    })
+    .put((req, res, next) => {
+        post.findById(req.params.id, { new: true})
+        .then(foundPost => {
+            const foundComment = foundPost.comments.id(req.params.commentId);
+            foundComment.set(req.body)
+            return foundPost.save((err) => {
+                if(err) {
+                    res.status(400)
+                    next(err)
+                }
+                res.status(200).send(foundPost)
+            })
+        })
+    })
 //     .delete()
 
 module.exports = voteRouter
